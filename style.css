@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: rgb(26, 114, 161);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 95vh;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+    width: 30rem;
+    border: .5rem;
+    border-radius: 1rem;
+}
+header input{
+  width: 15rem;
+  height: 1.5rem;
+  border: .1rem solid rgb(14, 12, 12);
+  border-radius: .8rem;
+  margin-bottom: 1.5rem;
+}
+header input:focus {
+  /* border-radius: ; */
+  /* border: .2rem solid rgb(55, 236, 55); */
+}
+#to-do-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.todos{
+  margin-bottom: 1rem;
+  background-color: grey;
+  border: .1rem solid transparent;
+  border-radius: .8rem;
+}
+.text-fields{
+    resize: none;
+    overflow: hidden;
+    width: 20rem;
+    border: .1rem solid transparent;
+    border-radius: 1rem;
+    /* background-color: red; */
+}
+.input-controller{
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    
+
+}
+
+
+/* contains the div with delete and edit icons */
+
+.delete-keyword{
+  display: none;
+  font-size: .2rem;
+} 
+.update-controller{
+   display: none;
+}
+.update-controller button{
+  background-color: rgb(56, 138, 231);
+  border: .08rem solid transparent;
+  border-radius: .5rem;
+}
+.update-controller button:hover{
+  border: .08rem solid blanchedalmond;
+}
+
+
+
+/* @media(max-width: 768px) {
+    main {
+      width: 95%;
+      text-align: center;
+    }
+  
+    header {
+      flex-direction: column;
+      padding-bottom: 20px;
+    }
+  
+  
+    .item {
+      width: 300px;
+    }
+  
+  } */
